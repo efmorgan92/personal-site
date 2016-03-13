@@ -1,50 +1,36 @@
-
-//Code that I edited
-body {
-    background-color: #999999;
-    margin: 60px auto;
-    width: 70%;
+#top-page {
+  background-color: #98B1C4;
+  height:90vh;
 }
 
-//Code from the tutorial
+#middle-page {
+  background-color:#FFFFFF;
+  color: #FFFFFF;
+  height: 4vh;
+}
 
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+#bottom-page {
+  background-color: #00022E;
+  color: #00022E;
+  height:6vh;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
+
 h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+  font-family: "Verdana";
+  color: #00022E;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 40px;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+h2 {
+  color: #FFFFFF;
 }
 
-ul.posts li {
-    list-style: none;
+h3 {
+  color: #2F4F4F;
 }
-Don't forget to commit the new CSS file!
+
+h4 {
+  color: #4D4D4D;
+}

@@ -7,7 +7,7 @@
     <script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>
   </head>
   <body>
-    <div id="under"><img src="WebBackgroundYellow.png" id="backgroundImage" height="100%"></div>
+    <div id="under"><img src="WebBackgroundYellow.png" height="100%"></div>
     <div id="top" style="left: 27%; top: 19%; position:absolute"> 
       <a href="#aboutMe">
         <img src="FranklinBox2.png"
@@ -16,10 +16,19 @@
           onmouseout="changeImage('FranklinBox2.png')"/>
       </a>
     </div> 
-    <div width="100%">
+    <div id="under">
       <a name="aboutMe">
-        <img src="FranklinBio.png">
+        <img src="FranklinBio.png" height="100%">
       </a>
+    </div>
+    <div id="top" style="left: 45%; top:65%; position:absolute">
+      <img src="LinkedInWhite.png" id="linkLinkedIn"/>
+    </div>
+        <div id="top" style="left: 60%; top:65%; position:absolute">
+      <img src="EmailWhite.png" id="linkEmail"/>
+    </div>
+        <div id="top" style="left: 75%; top:65%; position:absolute">
+      <img src="GithubWhite.png" id="linkGithub"/>
     </div>
     <script type="text/javascript" language="javascript">
         function changeImage(img){

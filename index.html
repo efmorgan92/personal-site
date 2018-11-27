@@ -1,36 +1,58 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Franklin Morgan</title>
+
+    <title>Hi, I'm Franklin Morgan.</title>
     <link rel="stylesheet" type="text/css" href="bootstrap.css">
     <link rel="stylesheet" type="text/css" href="main.css">
     <script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>
   </head>
   <body>
-    <div class="row" id="top-page">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <h1>FRANKLIN MORGAN</h1>
-        <h2>Ellen Franklin Morgan</h2>
-        <h3>Data Analyst</h3>
-        <h4>Accent Color</h4>
-      </div>
-      <div class="col-md-1"></div>
+
+    <center><div id="under"><img src="Website 1.png" height=100%"></div>
+    <div id="underBio">
+        <img src="Website 2.png" height="100%">
     </div>
-    <div class="row" id="middle-page">
-      Placeholder
-    </div>
-    <div class="row" id="bottom-page">
-      Placeholder
-    </div>
-    <div class="row">
-      <div class="col-md-3">Test 1</div>
-      <div class="col-md-3">Test 2</div>
-      <div class="col-md-3">Test 3</div>
-    </div>
-    <div class="row">
-      Test area
-    </div>
+    <table><tr><td>
+    <div id="topBio">
+      <a href="https://www.linkedin.com/in/ellen-franklin-morgan/">
+        <img src="LinkedInWhite.png" 
+          id="linkLinkedIn"
+          onmouseover="changeLinkLinkedIn('LinkedInBlue.png')"
+          onmouseout="changeLinkLinkedIn('LinkedInWhite.png')"/>
+      </a>
+      </div></td>
+    <td><div id="topBio">
+      <a href="mailto:efranklinmorgan@gmail.com">
+        <img src="EmailWhite.png" 
+          id="linkEmail"
+          onmouseover="changeLinkEmail('EmailBlue.png')"
+          onmouseout="changeLinkEmail('EmailWhite.png')"/>
+      </a>
+      </div></td>
+    <td><div id="topBio">
+      <a href="https://github.com/efmorgan92">
+        <img src="GithubWhite.png" 
+          id="linkGithub"
+          onmouseover="changeLinkGithub('GithubBlue.png')"
+          onmouseout="changeLinkGithub('GithubWhite.png')"/>
+      </a>
+      </div></td></tr></table>
+    <div id="under"><img src="Website 3.png" height="100%"></div></center>
+    <script type="text/javascript" language="javascript">
+        function changeImage(img){
+           document.getElementById('titleImage').src=img;
+        }
+        function changeLinkLinkedIn(img){
+          document.getElementById('linkLinkedIn').src=img;
+        }
+        function changeLinkEmail(img){
+          document.getElementById('linkEmail').src=img;
+        }
+        function changeLinkGithub(img){
+          document.getElementById('linkGithub').src=img;
+        }
+    </script>
 
   </body>
 </html>

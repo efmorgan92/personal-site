@@ -1,0 +1,38 @@
+#top-page {
+  background-color: #98B1C4;
+  height:90vh;
+}
+
+
+#mainpage
+{
+	position: relative;
+	height: 0;
+	padding: 56.25% 0 0 0;
+}
+
+#bottom-page {
+  background-color: #00022E;
+  color: #00022E;
+  height:6vh;
+}
+
+h1 {
+  font-family: "Verdana";
+  color: #00022E;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 40px;
+}
+
+h2 {
+  color: #FFFFFF;
+}
+
+h3 {
+  color: #2F4F4F;
+}
+
+h4 {
+  color: #4D4D4D;
+}
